@@ -1,0 +1,173 @@
+style.css
+header{   
+}
+.nav-services{     
+    display:inline-block;
+    position:relative;
+    border:0;
+    margin-left:-120px;
+}     
+.nav-titreportfolio{
+    display:inline-block;
+    position:relative;
+    margin-left:101px;
+    margin-top:3px;
+    
+}
+a{
+    display:flex;
+    flex-wrap: nowrap;
+    margin-left:722px;
+    color:black;
+}  
+.pageune{
+    border: 1px solid orange;      /* barre horizontale orange */
+    width:1450px;
+    height:40px;
+}
+
+.titreportfolio{ /*titre*/
+    margin-top: -40px;
+    margin-left:30px;
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.services{ /*titres*/
+    display:flex;
+   margin-left:559px;
+   
+   
+}
+.servicespagedeux{
+    margin-top: -30px;
+    margin-left:560px;
+    display:flex;
+    flex-direction:row;
+}
+.booki{
+    height:140px;
+    width: 140px;
+
+}
+.logo{
+    margin-top:30px;
+    height:100px;
+    width:100px;
+    margin-left:15px;
+
+}
+.profile{
+    height:100px;
+    margin-left:1200px;
+    border-radius:55px;
+    width:100px;
+}
+
+img{
+    margin-top:-342px;
+    margin-left:690px;
+    height:750px;
+    width:600px;
+}
+h1{
+    justify-content: center;
+    font-weight:"phosphate"; 
+    margin-top:50px;
+}
+#logo{
+   margin-top:20px;
+   height:40%;
+   size:20px;
+}
+body{
+    background-color: white;
+}
+p{/
+    border:px solid orange;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:blue;
+    background-color: gray;
+    width:1450px;
+    margin-left:5px;
+}*/
+
+.firstinput{
+    height:50px;
+    width:400px;
+    color:black;
+    margin-left:1000px;
+    background-color: ;
+}
+.secondinput{
+    height:50px;
+    width:400px;
+    margin-left:1000px;
+}
+.thirdinput{
+    height:250px;
+    width:400px;
+    background-color: lightblue;
+    margin-left:1000px;
+    text-align: top;
+}
+button{
+    height:100px;
+    width:406px;
+    margin-left:1000px;
+    background-color:#1677be;
+    color:white;
+}
+h2{
+    font-weight:"phosphate";
+}
+.profil{
+    border-radius:35px;
+    display:flex;
+    padding-left:1310px;
+    height:100px;
+    width:100px;  
+}
+
+.fa-linkedin{
+    display: flex;
+    justify-content: space-between;
+    width:400px;
+    height:30%;
+    width:20%;
+    margin-left:150px;
+    margin-top:30px;
+    height:40px;
+    width:10px;
+    color:blue;
+}
+.fa-instagram{
+    margin-left:310px;
+    height:100px;
+    color:purple;
+}
+.fa-facebook{
+    margin-left:350px;
+    color:blue;
+    
+}
+
+footer i{
+    margin:0px 420px 0px 0px;
+    color:grey;
+    border:10px solid grey;
+    height:40px;
+    width:100px;
+    display: flex;
+    justify-content: space-between;
+    width:400px;
+
+}
+.social{
+    border:1px solid gray;
+    display: flex;
+    background-color:grey;
+    height:25px;
+
+
+}

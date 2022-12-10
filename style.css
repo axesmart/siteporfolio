@@ -83,21 +83,21 @@ h1{
 body{
     background-color: white;
 }
-p{/
+/* p{
     border:px solid orange;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color:blue;
     background-color: gray;
     width:1450px;
     margin-left:5px;
-}*/
+} */
 
 .firstinput{
     height:50px;
     width:400px;
     color:black;
     margin-left:1000px;
-    background-color: ;
+    /* background-color: ; */
 }
 .secondinput{
     height:50px;

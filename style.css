@@ -1,103 +1,107 @@
-style.css
-header{   
-}
-.nav-services{     
-    display:inline-block;
-    position:relative;
-    border:0;
-    margin-left:-120px;
-}     
-.nav-titreportfolio{
-    display:inline-block;
-    position:relative;
-    margin-left:101px;
-    margin-top:3px;
-    
-}
-a{
-    display:flex;
-    flex-wrap: nowrap;
-    margin-left:722px;
-    color:black;
-}  
-.pageune{
-    border: 1px solid orange;      /* barre horizontale orange */
-    width:1450px;
-    height:40px;
-}
-
-.titreportfolio{ /*titre*/
-    margin-top: -40px;
-    margin-left:30px;
+.nav-bar{
     display: flex;
-    flex-wrap:wrap;
+    justify-content: space-between;
+    margin-top:30px;
 }
-
-.services{ /*titres*/
-    display:flex;
-   margin-left:559px;
-   
-   
+/* Services proposée et portfolio */
+.nav-title{
+    display: flex;
+    align-items: center;
 }
-.servicespagedeux{
-    margin-top: -30px;
-    margin-left:560px;
-    display:flex;
-    flex-direction:row;
+.nav-title a{
+    margin-left: 50px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+/* Hover remake animation as you want */
+.nav-title a:hover{
+    transform: scale(1.25);
 }
 .booki{
-    height:140px;
-    width: 140px;
+    height:800px;
+    width: 600px;
 
 }
 .logo{
-    margin-top:30px;
     height:100px;
     width:100px;
     margin-left:15px;
-
 }
 .profile{
     height:100px;
-    margin-left:1200px;
     border-radius:55px;
     width:100px;
 }
 
-img{
-    margin-top:-342px;
-    margin-left:690px;
-    height:750px;
-    width:600px;
-}
-h1{
-    justify-content: center;
-    font-weight:"phosphate"; 
-    margin-top:50px;
-}
-#logo{
-   margin-top:20px;
-   height:40%;
-   size:20px;
-}
-body{
-    background-color: white;
-}
-/* p{
-    border:px solid orange;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color:blue;
-    background-color: gray;
-    width:1450px;
-    margin-left:5px;
-} */
+/* Body */
 
-.firstinput{
+main{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.main-custum{
+    display: flex;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.paragraph{
+    width: 50%;
+}
+.container{
+    height: 80vh;
+}
+.price{
+    color: blue;
+}
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+.fab{
+    color: white;
+    font-size: 50px;
+    margin: 30px;
+    text-decoration: none;
+}
+.fa-facebook:hover{
+    color: blue;
+    transform: scale(1.2);
+}
+.fa-linkedin:hover{
+    color:aqua;
+    transform: scale(1.2);
+}
+.fa-instagram:hover{
+    color: rgb(177, 0, 118);
+    transform: scale(1.2);
+}
+.form-axel{
+    width: 30%;
+}
+.form{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-axel{
+    height:100px;
+    width:406px;
+    background-color:#1677be;
+    color:white;
+} 
+
+
+
+
+/* Formulaire de base */
+/* .firstinput{
     height:50px;
     width:400px;
     color:black;
     margin-left:1000px;
-    /* background-color: ; */
 }
 .secondinput{
     height:50px;
@@ -111,25 +115,17 @@ body{
     margin-left:1000px;
     text-align: top;
 }
-button{
+.btn-axel{
     height:100px;
     width:406px;
-    margin-left:1000px;
     background-color:#1677be;
     color:white;
-}
-h2{
-    font-weight:"phosphate";
-}
-.profil{
-    border-radius:35px;
-    display:flex;
-    padding-left:1310px;
-    height:100px;
-    width:100px;  
-}
+} */
 
-.fa-linkedin{
+/* h2{
+    font-weight:"phosphate";
+} */
+/* .fa-linkedin{
     display: flex;
     justify-content: space-between;
     width:400px;
@@ -150,9 +146,9 @@ h2{
     margin-left:350px;
     color:blue;
     
-}
+} */
 
-footer i{
+/* footer i{
     margin:0px 420px 0px 0px;
     color:grey;
     border:10px solid grey;
@@ -162,12 +158,12 @@ footer i{
     justify-content: space-between;
     width:400px;
 
-}
-.social{
+} */
+/* .social{
     border:1px solid gray;
     display: flex;
     background-color:grey;
     height:25px;
 
 
-}
+} */
